@@ -1,0 +1,10 @@
+^C:\USERS\EMI\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\LAB_EGC\GFX-FRAMEWORK-MASTER\CMAKEFILES\FD038441F9A58C1B7DA3FAE44A84D547\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Emi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/lab_EGC/gfx-framework-master" "-BC:/Users/Emi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/lab_EGC/gfx-framework-master" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Emi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/lab_EGC/gfx-framework-master/GFXFramework.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
