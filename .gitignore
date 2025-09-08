@@ -1,5 +1,32 @@
-build*
-/**/bin
-/**/.vs
-/**/obj
-components_hidden
+# Build artifacts
+/build/
+/Debug/
+/Release/
+/x64/
+/[Oo]bj/
+/[Bb]in/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio generated files
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.user
+*.filters
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Others
+*.exe
+*.dll
+*.pdb
